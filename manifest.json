@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "DOPM STIVE PRO",
+  "version": "3.0",
+  "description": "Limpeza de texto e filtragem de RGs.",
+  "action": {
+    "default_title": "DOPM STIVE PRO"
+  },
+  "side_panel": {
+    "default_path": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "clipboardWrite",
+    "storage",
+    "sidePanel"
+  ]
+}
