@@ -143,6 +143,12 @@
       background: #16a34a;
     }
 
+    .btn-process.danger {
+      background: #dc2626;
+    }
+
+    .btn-process.danger:hover { background: #b91c1c; }
+
     /* ── TEXTAREAS CONTAINER ── */
     .textareas {
       display: flex;
@@ -250,7 +256,7 @@
       <label><input type="radio" name="option" value="filter-rgs"> Filtrar RGs</label>
     </div>
     <input type="text" id="customSigla" class="sigla-input" placeholder="Sigla (ex: EPA)" />
-    <button id="clearButton" class="btn-process" style="background: #dc2626;">LIMPAR</button>
+    <button id="clearButton" class="btn-process danger">LIMPAR</button>
     <button id="processButton" class="btn-process">▶ PROCESSAR</button>
   </div>
 
@@ -274,6 +280,6 @@
 
 </div>
 
-<script src="popup.js"></script>
+<script type="module" src="popup.js"></script>
 </body>
 </html>

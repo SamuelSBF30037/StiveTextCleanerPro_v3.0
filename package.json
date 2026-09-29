@@ -1,0 +1,10 @@
+{
+  "name": "stive-text-cleaner-pro",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Extensão DOPM STIVE PRO: limpeza de texto e filtragem de RGs.",
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\""
+  }
+}
